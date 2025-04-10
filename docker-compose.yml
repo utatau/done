@@ -1,0 +1,10 @@
+services:
+  uta:
+    container_name: eka
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:var/www/html/
+    ports:
+      - 9008:80
