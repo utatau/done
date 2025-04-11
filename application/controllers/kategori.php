@@ -211,6 +211,7 @@ class kategori extends CI_Controller
     }
     public function proses_hapus($id)
     {
+        $id = urldecode($id);
         $where = array('head_kategori' => $id);
         $this->kategori_model->hapus_data($where, 'kategori');
         $this->session->set_flashdata('Pesan', '

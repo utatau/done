@@ -48,13 +48,13 @@ if (!$this->session->has_userdata('login_session')) {
     <div id="wrapper">
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">
-            <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex flex-column m-md-5 align-items-center justify-content-center" href="<?= base_url() ?>home">
+            <a class="sidebar-brand d-flex flex-column align-items-center justify-content-center m-md-4" href="<?= base_url() ?>home">
                 <div class="sidebar-brand-icon mb-3">
-                    <img src="<?= base_url(); ?>assets/icon/logo.png" width="100">
+                    <img src="<?= base_url(); ?>assets/icon/logo.png" width="50">
                 </div>
                 <div class="sidebar-brand-text mx-3">PENGELOLA ARSIP</div>
             </a>
+
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
             <!-- Nav Item - Dashboard -->

@@ -19,11 +19,7 @@ function formatuta($tanggal)
 
 
 <div class="container-fluid">
-    <h1 class="h3 mb-0 text-gray-800">Data Dokumen Masuk</h1>
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <span class="text-white-50 p-3">
-            <input type="date" name="cekout" class="form-control shadow-none">
-        </span>
         <?php if ($this->session->userdata('login_session')['level'] == 'admin') : ?>
             <a data-toggle="modal" href="" data-target="#tambah" class="btn btn-sm btn-primary btn-icon-split">
                 <span class="text text-white">Tambah Data</span>
